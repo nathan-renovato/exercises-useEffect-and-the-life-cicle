@@ -5,11 +5,9 @@ import { useState } from "react";
 
 function Main() {
   const [openList, setOpenList] = useState(false);
-  const background = openList ? "background-modal" : "";
-  const classes = `container ${background}`;
 
   return (
-    <div className={classes}>
+    <div className="container">
       {openList ? (
         <ModalUsers setOpenList={setOpenList} />
       ) : (
