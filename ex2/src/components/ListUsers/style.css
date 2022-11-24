@@ -1,0 +1,19 @@
+.container-users {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 50%;
+}
+
+.list-users {
+  align-items: center;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 400px;
+  justify-content: center;
+  width: 350px;
+}

@@ -1,0 +1,27 @@
+.container-new-user {
+  align-items: center;
+  border-right: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  justify-content: center;
+  width: 50%;
+}
+
+input,
+button {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+input {
+  padding: 8px;
+}
+
+button {
+  box-shadow: 0 1px 2px black;
+  cursor: pointer;
+}

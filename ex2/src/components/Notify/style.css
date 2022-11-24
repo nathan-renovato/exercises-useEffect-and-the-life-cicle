@@ -1,0 +1,11 @@
+.container-notify {
+  bottom: 100px;
+  position: absolute;
+}
+
+.notify {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  padding: 24px;
+}
