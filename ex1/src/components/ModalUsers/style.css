@@ -1,0 +1,15 @@
+.container-list {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.container-users {
+  display: flex;
+  flex-direction: column;
+}
