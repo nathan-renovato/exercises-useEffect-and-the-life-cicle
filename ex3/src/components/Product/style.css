@@ -1,0 +1,23 @@
+.shoe {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 478px;
+  justify-content: center;
+  width: 322px;
+}
+
+.shoe:hover {
+  transform: scale(1.1);
+}
+
+.shoe img {
+  height: 322px;
+  margin-top: 20px;
+  width: 322px;
+}
+
+.shoe-name {
+  margin-bottom: 20px;
+}

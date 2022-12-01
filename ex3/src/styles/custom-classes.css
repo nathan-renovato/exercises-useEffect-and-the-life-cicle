@@ -1,0 +1,40 @@
+.content-price {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.product-price,
+.product-installment {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  width: 200px;
+}
+
+.content-price h6,
+span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.content-price h6 {
+  color: #aba0a0;
+  text-decoration: line-through;
+}
+
+.content-price h2 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.content-price h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
